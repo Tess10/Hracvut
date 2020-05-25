@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<title>
+Hra pro ČVUT FBMI PŘKS 2 - Konopáčová
+</title>
+<head>
+<meta charset="UTF-8">
+<script src="game.js"></script>
+<style>
+body {background-color: rgb(145, 74, 211);}
+</style>
+</head>
+<body>
+<h1 align="center">Vítejte ve hře</h1> <br>
+<p1>Vítám tě hrdino!</p1><br>
+<p2>Tvá žena byla unesena zlým obrem, který si ji chce vzít za manželku. Tvým posláním je svou ženu zachránit! Porozhlídni se po okolí určitě tu někde musí být!  </p2>
+<br>
+<button type="button" onclick="myFunction0()">Hospoda</button>
+<button type="button" onclick="myFunction1()">Domeček</button>
+<button type="button" onclick="myFunction2()">Zbrojírna</button>
+<button type="button" onclick="myFunction3()">Jeskyně</button><br>
+<p2 id="text0"></p2>
+<p2 id="text1"></p2>
+<p2 id="text2"></p2>
+
+
+
+</body>
+</html>
